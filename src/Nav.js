@@ -22,13 +22,13 @@ function Nav() {
         <div className={`nav ${show && "nav__black"}`}>
             <img 
             className="nav__logo"
-            src={process.env.PUBLIC_URL + 'img/logo.png'}
+            src={process.env.PUBLIC_URL + 'img/netflix-logo.svg'}
             alt="netflix"
             />
 
             <img 
             className="nav__avatar"
-            src={process.env.PUBLIC_URL + 'img/logo.png'}
+            src={process.env.PUBLIC_URL + 'img/netflix-avatar.png'}
             alt="netflix"
             />
         </div>
